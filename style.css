@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: url(./Translator-Apps-for-iPhone-Device.webp);
+    background-color: #677981;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    background: white;
+    padding: 2rem
+}
+
+.logo img {
+    width: 100%;
+    height: 80px;
+}
+
+.text-input {
+    width:  100%;
+    height: 250px;
+    outline: none;
+    display: flex;
+    border-radius: 7px;
+    font-size: 17px;
+    justify-content: space-between;
+}
+
+.text-input .text_trans1 {
+    display: flex;
+    justify-content: center;
+}
+ 
+/* select {
+    justify-content: center;
+    display: flex;
+
+} */
+
+.second-option {
+    margin-left: 13.5rem;
+    position: inhert;
+}
+
+
+button {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 2px;
+    background-color: bisque;
+}
